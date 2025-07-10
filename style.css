@@ -278,7 +278,13 @@ html,body{
     /* box-shadow: 2px 4px 2px 1px rgba(172, 170, 170, 0.5); */
     text-align: center;
     margin-top: 40px;
-
+    transition: 0.3s ease-in-out;
+}
+.feature:hover{
+    transform: scaley(1.1);
+    background: linear-gradient(#AAE9EB,white);
+    transition: 0.4s ease-in-out;
+    box-shadow: 0px 0px 5px #88888840;
 }
 .feature img{
     width: 35%;
@@ -391,6 +397,13 @@ html,body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 0.3s ease-in-out;
+}
+.team:hover{
+      transform: scaley(1.1);
+    background: linear-gradient( #AAE9EB,#FFFFFF);
+    transition: 0.4s ease-in-out;
+    box-shadow: 0px 0px 5px #88888840;
 }
 .team img{
     width: 50%;
