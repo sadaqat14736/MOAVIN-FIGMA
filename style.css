@@ -190,13 +190,21 @@ html,body{
 }
 .service-card{
     width: 27%;
-    height: 450px;
+    height: 400px;
     background-color: white;
-    border: 1px solid rgb(253, 253, 253)8, 67, 67;
-    box-shadow: 4px 2px 2px 2px rgba(255, 255, 255, 0.5);
+    /* border: 1px solid black ; */
+    /* box-shadow: 4px 2px 2px 2px rgba(255, 255, 255, 0.5); */
     border-radius: 10px;
     text-align: center;
+    transition: 0.3s ease-in;
 }
+.service-card:hover{
+    transform: scaley(1.1);
+    background: linear-gradient( #AAE9EB,#FFFFFF);
+    transition: 0.4s ease-in-out;
+    box-shadow: 0px 0px 5px #88888840;
+}
+
 .service img{
     width: 100%;
     height: 200px;
