@@ -292,7 +292,7 @@ html,body{
 
 /* FEATURES */
 .features-section{
-    width: 90%;
+    width: 95%;
     height: 1151px;
     color: black;
     margin: auto;
@@ -310,7 +310,7 @@ html,body{
     margin-top: 20px;
 }
 .feature{
-    width: 29%;
+    width: 397px;
     height: 397px;
     background-color: white;
     box-shadow: 0 0 10px rgba(139, 138, 138, 0.1);
